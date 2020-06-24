@@ -1,0 +1,33 @@
+{% extends 'home.html' %}
+
+{% block title %}
+    Django Highcharts Example
+{% endblock %}
+
+{% block content %}
+
+    <div id="container"></div>
+    <script src="https://code.highcharts.com/highcharts.src.js"></script>
+    <script>
+        Highcharts.chart('container', {
+            chart: {
+                type: 'bar'
+            },
+            title: {
+                text: 'Titanic Survivors by Ticket Class'
+            },
+            xAxis: {
+                categories: {{ categories|safe }}  /* safe 필터 */
+            },
+            series: [{
+                name: 'Survived',
+                data: {{ survived_series }},
+                color: 'green'
+            }, {
+                name: 'Not survived',
+                data: {{ not_survived_series }},
+                color: 'red'
+            }]
+        });
+    </script>
+{% endblock %}
