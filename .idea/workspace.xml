@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="71c9595b-db63-43a9-aaea-6bd5f33d97d6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1dlInDXJ4PyLG09Gx7dwZ1GpAoK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -75,7 +77,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/데이터시각화" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -86,12 +88,13 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\work\h_chart\templates" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\h_chart\Chart" />
       <recent name="C:\work\h_chart\templates" />
       <recent name="C:\work\h_chart" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\work\h_chart\templates" />
     </key>
   </component>
   <component name="RunManager">
@@ -163,7 +166,8 @@
       <option name="presentableId" value="Default" />
       <updated>1592993417401</updated>
       <workItem from="1592993420159" duration="27230000" />
-      <workItem from="1593066017191" duration="17039000" />
+      <workItem from="1593066017191" duration="20627000" />
+      <workItem from="1593106924409" duration="2382000" />
     </task>
     <servers />
   </component>
@@ -179,10 +183,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1593025367697" />
-    <state x="901" y="174" key="FileChooserDialogImpl" timestamp="1593064567989">
+    <state x="901" y="174" key="FileChooserDialogImpl" timestamp="1593109364358">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="901" y="174" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593064567989" />
+    <state x="901" y="174" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593109364358" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1593065847792">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
