@@ -22,4 +22,6 @@ urlpatterns = [
     path('word-population/',views.world_population,
          name='world_population'),
     path('admin/', admin.site.urls),
+    path('', include('covid.urls')),
+
 ]

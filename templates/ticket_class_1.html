@@ -11,7 +11,9 @@
   <script>
     Highcharts.chart('container', {
         chart: {
-            type: 'column'
+            type: 'column',
+            borderColor: '#9DB0AC',
+            borderWidth: 3
         },
         title: {
             text: 'Titanic Survivors by Ticket Class'
@@ -39,7 +41,8 @@
               {% endfor %}
             ],
             color: 'red'
-        }]
+        }
+        ]
     });
   </script>
 {% endblock %}
